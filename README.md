@@ -4,19 +4,43 @@ sniffer
 get all broser information u need 
 
 
-just add 
+perty simple all you need is copy index.html to pages you want to get inforamtion and out put should be like this :
 
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-<script type="text/javascript" src="swfobject.js"></script>
-<script type="text/javascript" src="pdf.js"></script>
-<script type="text/javascript" src="http://java.com/js/deployJava.js"></script>
-<script type="text/javascript">
+<!DOCTYPE html>
+<html>
 
-var info = getAcrobatInfo();
+<head>
+<style>
+table,th,td
+{
+border:1px solid black;
+border-collapse:collapse;
+}
+th,td
+{
+padding:5px;
+}
+</style>
+</head>
 
-$.get('main.php?java=' + deployJava.getJREs()+'&flash='+deconcept.SWFObjectUtil.getPlayerVersion().major+'.'+deconcept.SWFObjectUtil.getPlayerVersion().minor+'.'+deconcept.SWFObjectUtil.getPlayerVersion().rev+'&pdf='+info.acrobat + " " + info.acrobatVersion);// Show all installed JRE versions.
+<body>
+<table style="width:300px">
+<tr>
+  <th>ip</th>
+  <th>country</th>		
+  <th>browser</th>
+  <th>os</th>
+  <th>reports</th>
+  <th>java</th>
+  <th>flash</th>
+  <th>pdf</th>
 
-			   // window.location.href = "index.php?width=" + width + "&height=" + height;
-        </script>
+  </tr>
+
+
+<tr><td>::1 </td><td></td><td>Google Chrome 33.0.1750.154</td><td>Windows 8.1</td><td>Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36</td><td></td><td></td><td></tr>
+<tr><td>::1 </td><td></td><td>Google Chrome 33.0.1750.154</td><td>Windows 8.1</td><td>Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36</td><td>1.7.0_51</td><td>12.0.0</td><td>installed Chrome PDF Viewer</tr>
+
+
 
 
