@@ -1,7 +1,7 @@
 sniffer
 =======
 
-get all broser information u need 
+get all browser information u need 
 
 
 perty simple all you need is copy index.html to pages you want to get inforamtion and out put should be like this :
